@@ -31,6 +31,8 @@ public class A {
 		}
 		compensation = salary+Commission;
 		
+		System.out.println("\nname : "+name);
+		System.out.println("Commpensation : "+compensation);
 	}
 
 }
