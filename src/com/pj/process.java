@@ -17,6 +17,9 @@ public class process {
 		Commission = 0;
 	}
 	compensation = salary+Commission;
+	if(compensation<18000){
+		compensation = 18000;
+	}
 	return compensation;
 	}
 	 
