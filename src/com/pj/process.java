@@ -6,9 +6,9 @@ public class process {
 	public double getcom(double salary,double sales) {
 		double Commission;
 		double compensation;	
-	if(sales > 100000){
+	if(sales > 50000){
 		Commission = sales*0.03;
-	}else if(sales > 50000){
+	}else if(sales > 25000){
 		Commission = sales*0.02;
 	}else if(sales >= 1){
 		Commission = sales*0.01;
